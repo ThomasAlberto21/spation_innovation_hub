@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600&family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --Roboto: "Roboto", sans-serif;
+  --RedHat: "Red Hat Display", sans-serif;
+  --green: #1b8036;
+  --gray: #464749;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.collapse ul li a {
+  font-family: var(--Roboto);
+  font-weight: 600;
+  color: black;
+  letter-spacing: 1px;
+}
+
+header .btn {
+  padding: 10px 20px;
+  border-radius: 26.39px;
+  background-color: var(--green);
+  color: white;
+  border: none;
+}
+
+header .dropdown-menu {
+  background-color: var(--green);
+}
+
+header .dropdown-menu a:hover {
+  background-color: black;
+}
+
+/* ! Hero */
+#hero h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: var(--green);
+}
+
+#hero p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 33px;
+  font-family: var(--RedHat);
+  color: var(--gray);
+}
+
+#hero button {
+  padding: 10px 20px;
+  background-color: var(--green);
+  color: white;
+  border-radius: 26.39px;
+}
+
+#hero img {
+  margin-left: 100px;
+}
+
+/* ! about */
+#about {
+  margin-top: 20%;
+}
+
+#about li {
+  color: var(--gray);
+  opacity: 0.6;
+  font-family: var(--Roboto);
+  font-weight: 700;
+}
+
+#about h1 {
+  font-family: var(--Roboto);
+  font-size: 38px;
+  font-weight: 900;
+  line-height: 45.24px;
+}
+
+#about p {
+  font-family: var(--Roboto);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 43.86px;
+}
+
+#about .who-we-do {
+  margin-top: 100px;
+}
+
+/* product */
+#product {
+  margin-top: 100px;
+}
+
+#product button {
+  background-color: var(--green);
+  color: white;
+  padding: 10px 20px;
+}
+
+#product h1 {
+  color: var(--green);
+  font-family: var(--Roboto);
+  font-weight: 700;
+}
+
+#product h2 {
+  font-family: var(--Roboto);
+  font-weight: 700;
+  font-size: 38.7712px;
+  line-height: 116.69%;
+}
+
+#product h3 {
+  font-family: var();
+  font-weight: 500;
+  font-size: 25.8475px;
+  line-height: 169.69%;
+}
+
+#product p {
+  font-family: var(--Roboto);
+  font-weight: 400;
+  font-size: 19.3856px;
+  line-height: 169.69%;
+  color: var(--gray);
+  opacity: 0.7;
+}
+
+#product .iPhone img {
+  margin-left: 40vh;
+}
+
+#product .iMac {
+  margin-top: 30vh;
+}
+
+#product .iMac img {
+  height: 400px;
+  width: 500px;
+}
+
+/* question */
+#question {
+  margin-top: 20vh;
+}
+
+#question .dropdown .btn {
+  background-color: transparent;
+  color: black;
+  border: none;
+  font-family: var(--Roboto);
+  font-weight: 700;
+  font-size: 38.7712px;
+  line-height: 116.69%;
+  margin-top: 50px;
+  margin-bottom: 15vh;
+}
+
+#question .dropdown-menu {
+  width: 100%;
+  background-color: var(--green);
+}
+
+#question .dropdown-menu a:hover {
+  background-color: black;
+}
+
+#question .news-letter {
+  background-color: var(--green);
+  border-radius: 25px;
+  padding: 10px 0;
+}
+
+#question .news-letter .email h1 {
+  font-family: var(--Roboto);
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+#question .news-letter .email input {
+  height: 10vh;
+  width: 90vh;
+  border-radius: 50px;
+}
+
+#question .news-letter .email input::placeholder {
+  font-family: var(--Roboto);
+  font-weight: 400;
+  font-size: 19.3856px;
+  line-height: 23px;
+  color: #6c6b6b;
+}
+
+#question .news-letter .email button {
+  background-color: var(--green);
+  position: relative;
+  right: 40vh;
+  height: 50px;
+  width: 200px;
+  color: white;
+  font-family: var(--RedHat);
+  font-weight: 700;
+  font-size: 19.3856px;
+  line-height: 26px;
+  text-align: start;
+}
+
+#question .news-letter .email .btn span {
+  background-color: white;
+  position: absolute;
+  width: 41.08px;
+  height: 42.41px;
+  border-radius: 50%;
+  top: 2px;
+  right: 5px;
+}
+
+#question .news-letter .email .btn i {
+  color: var(--green);
+  margin: 12px 12px;
+}
+
+/* footer */
+footer {
+  background-color: var(--green);
+}
+
+.back {
+  position: fixed;
+  bottom: 45px;
+  right: 45px;
+  color: #fff;
+  background: var(--green);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: block;
+  border: #1b8036;
+  cursor: pointer;
+}
+
+.back i {
+  color: white;
+}

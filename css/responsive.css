@@ -1,0 +1,94 @@
+@media screen and (max-width: 767px) {
+  #hero h1 {
+    font-size: 40px;
+  }
+
+  #hero img {
+    display: none;
+  }
+
+  #about img {
+    display: none;
+  }
+
+  #product .iPhone img {
+    margin: 80vh 60px;
+  }
+
+  #product .iMac {
+    margin-top: 75vh;
+  }
+
+  #product .iMac img {
+    height: 300px;
+    width: 300px;
+  }
+
+  #question .dropdown .btn {
+    font-size: 25px;
+    margin-top: 0;
+  }
+
+  .news-letter img {
+    display: none;
+  }
+
+  .news-letter .email h1 {
+    display: none;
+  }
+
+  #question .news-letter {
+    background-color: transparent;
+  }
+
+  #question .news-letter .email input {
+    width: 100%;
+  }
+
+  #question .news-letter .email .btn {
+    display: none;
+  }
+
+  footer .about-us p {
+    font-size: 15px;
+  }
+
+  footer .about-us .social-media {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #product p {
+    font-size: 16px;
+  }
+
+  #product .iPhone img {
+    margin: 0 30vh;
+  }
+
+  #product .iMac {
+    margin-top: 10vh;
+  }
+
+  #question .dropdown-menu {
+    width: 75%;
+  }
+
+  #question .btn {
+    margin-bottom: 50px;
+  }
+  #question .news-letter .email input {
+    height: 5vh;
+    width: 30vh;
+    border-radius: 50px;
+  }
+
+  #question .news-letter .email .btn {
+    display: none;
+  }
+
+  footer .about-us p {
+    font-size: 12px;
+  }
+}
