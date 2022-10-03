@@ -3,6 +3,10 @@
     overflow-x: hidden;
   }
   
+  body {
+    overflow-x: hidden;
+  }
+  
   #hero h1 {
     font-size: 40px;
   }
